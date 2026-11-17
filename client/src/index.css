@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tg-bg: var(--tg-theme-bg-color, #ffffff);
+  --color-tg-secondary-bg: var(--tg-theme-secondary-bg-color, #efeff4);
+  --color-tg-text: var(--tg-theme-text-color, #000000);
+  --color-tg-hint: var(--tg-theme-hint-color, #8e8e93);
+  --color-tg-link: var(--tg-theme-link-color, #2481cc);
+  --color-tg-button: var(--tg-theme-button-color, #2481cc);
+  --color-tg-button-text: var(--tg-theme-button-text-color, #ffffff);
+
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --radius-tg-mobile-card: 20px;
+  --radius-tg-mobile-btn: 16px;
+  --radius-tg-desk-card: 10px;
+  --radius-tg-desk-btn: 8px;
+}
+
+@variant tg-desk (html[data-platform="tdesktop"] &);
+
+html[data-platform="ios"] body.tgmode-dark,
+html[data-platform="macos"] body.tgmode-dark {
+  --color-tg-secondary-bg: #000000 !important;
+  --color-tg-bg: #1c1c1e !important;
+  --color-tg-text: #ffffff !important;
+  --color-tg-hint: #8e8e93 !important;
+  --color-tg-button: #2c2c2e !important;
+  --color-tg-button-text: #007aff !important;
+}
+
+svg,
+path,
+rect,
+.recharts-wrapper,
+.recharts-surface {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+  -webkit-focus-ring-color: transparent !important;
+}
