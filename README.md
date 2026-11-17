@@ -282,3 +282,7 @@ Set the generated HTTPS URL as the Web App URL of your bot in [@BotFather](https
 **Yaroslav Yakushev** – [@yakuya00](https://github.com/yakuya00)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/yaroslav-yakushev-6759a937a)
+
+## 📄 License
+
+<a href="LICENSE" alt="LICENSE"><img src="https://img.shields.io/static/v1?style=for-the-badge&label=LICENSE&message=MIT&color=000000"></a>
